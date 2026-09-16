@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Corporate Run Ghana (Concept)</title>
+<meta name="description" content="Contact the Corporate Run Ghana event team for registration support, corporate partnerships, media enquiries and venue information.">
+<link rel="canonical" href="https://example.com/contact.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact | Corporate Run Ghana (Concept)">
+<meta property="og:description" content="Contact the Corporate Run Ghana event team for registration support, corporate partnerships, media enquiries and venue information.">
+<meta property="og:image" content="https://gmaworld.com/wp-content/uploads/2024/09/cr3-1024x652.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="robots" content="index, follow">
+<meta name="keywords" content="Corporate Run Ghana, Corporate Run 2026, Corporate Run Accra, Ghana Corporate Run, 5KM Run Ghana, Corporate Wellness Ghana, Corporate Fitness Ghana, Corporate Run and Walk">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+    :root{
+      --black:#0d0d0f;
+      --ink:#1a1a1c;
+      --white:#ffffff;
+      --red:#d91c2b;
+      --red-dark:#a8141f;
+      --gold:#c6a664;
+      --grey-100:#f4f4f2;
+      --grey-200:#eceae5;
+      --grey-300:#d8d6d0;
+      --grey-600:#6f6d68;
+      --grey-800:#2b2b2d;
+      --sky:#8fb9d6;
+      --font-display:'Bebas Neue',Impact,sans-serif;
+      --font-body:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+      --container:1240px;
+      --nav-h:76px;
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    @media (prefers-reduced-motion: reduce){
+      html{scroll-behavior:auto}
+      *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important;scroll-behavior:auto !important}
+    }
+    body{
+      font-family:var(--font-body);
+      color:var(--ink);
+      background:var(--white);
+      line-height:1.55;
+      -webkit-font-smoothing:antialiased;
+      overflow-x:hidden;
+    }
+    img{max-width:100%;display:block}
+    a{color:inherit;text-decoration:none}
+    ul{list-style:none}
+    button{font-family:inherit;cursor:pointer;border:none;background:none}
+    h1,h2,h3,h4{font-family:var(--font-display);letter-spacing:.01em;line-height:1.02;font-weight:400}
+    .container{max-width:var(--container);margin:0 auto;padding:0 24px}
+    :focus-visible{outline:3px solid var(--red);outline-offset:3px}
+
+    /* ---------- concept ribbon ---------- */
+    .concept-ribbon{
+      background:var(--black);color:var(--grey-300);
+      font-size:.72rem;letter-spacing:.06em;
+      text-align:center;padding:7px 16px;
+      font-family:var(--font-body);font-weight:500;
+    }
+    .concept-ribbon strong{color:var(--gold);font-weight:600}
+
+    /* ---------- nav ---------- */
+    .site-nav{
+      position:sticky;top:0;z-index:200;
+      background:transparent;
+      transition:background .35s ease, box-shadow .35s ease, padding .35s ease;
+      padding:18px 0;
+    }
+    .site-nav.solid{
+      background:rgba(13,13,15,.96);
+      backdrop-filter:blur(8px);
+      box-shadow:0 6px 24px rgba(0,0,0,.18);
+      padding:10px 0;
+    }
+    .nav-row{display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:flex;align-items:center;gap:10px;color:var(--white)}
+    .brand .mark{
+      width:38px;height:38px;border-radius:50%;
+      background:var(--red);color:var(--white);
+      display:flex;align-items:center;justify-content:center;
+      font-family:var(--font-display);font-size:1.05rem;flex:none;
+    }
+    .brand .name{font-family:var(--font-display);font-size:1.25rem;letter-spacing:.03em;line-height:1}
+    .brand .name small{display:block;font-family:var(--font-body);font-size:.58rem;letter-spacing:.14em;color:var(--gold);font-weight:600;margin-top:3px}
+    .nav-links{display:flex;align-items:center;gap:34px}
+    .nav-links a{
+      color:var(--grey-300);font-size:.86rem;font-weight:500;letter-spacing:.02em;
+      position:relative;padding:6px 0;
+    }
+    .nav-links a::after{
+      content:"";position:absolute;left:0;bottom:0;height:2px;width:0;
+      background:var(--red);transition:width .25s ease;
+    }
+    .nav-links a:hover,.nav-links a[aria-current="page"]{color:var(--white)}
+    .nav-links a[aria-current="page"]::after,.nav-links a:hover::after{width:100%}
+    .btn{
+      display:inline-flex;align-items:center;gap:10px;
+      padding:14px 26px;font-weight:600;font-size:.84rem;
+      letter-spacing:.02em;border-radius:2px;transition:transform .2s ease, box-shadow .2s ease, background .2s ease;
+      white-space:nowrap;
+    }
+    .btn-primary{background:var(--red);color:var(--white)}
+    .btn-primary:hover{background:var(--red-dark);transform:translateY(-2px);box-shadow:0 10px 24px rgba(217,28,43,.35)}
+    .btn-ghost{background:transparent;color:var(--white);border:1.5px solid rgba(255,255,255,.5)}
+    .btn-ghost:hover{border-color:var(--white);background:rgba(255,255,255,.08)}
+    .btn-dark{background:var(--black);color:var(--white)}
+    .btn-dark:hover{background:var(--ink);transform:translateY(-2px)}
+    .btn-outline{background:transparent;color:var(--ink);border:1.5px solid var(--grey-300)}
+    .btn-outline:hover{border-color:var(--ink)}
+    .btn-arrow{transition:transform .25s ease}
+    .btn:hover .btn-arrow{transform:translateX(4px)}
+    .nav-cta{display:none}
+    .hamburger{
+      display:none;width:42px;height:42px;border-radius:50%;
+      background:rgba(255,255,255,.12);align-items:center;justify-content:center;
+      flex-direction:column;gap:5px;flex:none;
+    }
+    .hamburger span{width:18px;height:2px;background:var(--white);display:block;transition:transform .25s ease, opacity .25s ease}
+    .hamburger[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+    .hamburger[aria-expanded="true"] span:nth-child(2){opacity:0}
+    .hamburger[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+    .mobile-menu{
+      position:fixed;inset:0;background:var(--black);z-index:300;
+      display:flex;flex-direction:column;padding:100px 32px 40px;
+      transform:translateX(100%);transition:transform .35s ease;
+    }
+    .mobile-menu.open{transform:translateX(0)}
+    .mobile-menu .close-btn{position:absolute;top:24px;right:24px;width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,.12);display:flex;align-items:center;justify-content:center}
+    .mobile-menu .close-btn span{color:#fff;font-size:1.4rem}
+    .mobile-menu a{
+      color:var(--white);font-family:var(--font-display);font-size:2.2rem;
+      padding:14px 0;border-bottom:1px solid rgba(255,255,255,.12);
+    }
+    .mobile-menu .btn{margin-top:28px;justify-content:center}
+
+    /* ---------- hero ---------- */
+    .hero{
+      position:relative;min-height:92vh;display:flex;align-items:flex-end;
+      background:linear-gradient(180deg,rgba(10,10,12,.35) 0%,rgba(10,10,12,.55) 45%,rgba(10,10,12,.92) 100%),
+                 var(--img) center 28%/cover no-repeat;
+      color:var(--white);margin-top:calc(-1 * (var(--nav-h) + 34px));
+      padding-top:calc(var(--nav-h) + 34px);
+    }
+    .hero-inner{width:100%;padding-bottom:64px}
+    .hero-badge{
+      display:inline-flex;align-items:center;gap:8px;
+      background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.35);
+      padding:6px 14px;border-radius:2px;font-size:.72rem;letter-spacing:.08em;
+      margin-bottom:22px;color:var(--grey-100);
+    }
+    .hero-badge .dot{width:6px;height:6px;border-radius:50%;background:var(--red)}
+    .hero h1{font-size:clamp(3rem,9vw,6.2rem);color:var(--white)}
+    .hero .sub{font-family:var(--font-display);font-size:clamp(1.2rem,3.4vw,2rem);color:var(--gold);margin-top:2px;letter-spacing:.03em}
+    .hero-meta{
+      display:flex;flex-wrap:wrap;gap:28px;margin:30px 0 34px;
+      font-size:.92rem;color:var(--grey-100);
+    }
+    .hero-meta div{display:flex;align-items:center;gap:10px}
+    .hero-meta strong{font-weight:700;color:var(--white)}
+    .hero-ctas{display:flex;flex-wrap:wrap;gap:16px}
+
+    /* ---------- countdown ---------- */
+    .countdown-wrap{background:var(--black);color:var(--white);padding:46px 0}
+    .countdown-head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;margin-bottom:26px;flex-wrap:wrap}
+    .countdown-head h2{font-size:1.5rem;color:var(--white)}
+    .countdown-head p{color:var(--grey-300);font-size:.9rem;max-width:420px}
+    .countdown{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .countdown .cell{
+      background:var(--ink);border:1px solid rgba(255,255,255,.08);
+      padding:22px 8px;text-align:center;border-radius:2px;
+    }
+    .countdown .num{font-family:var(--font-display);font-size:clamp(2rem,6vw,3.4rem);color:var(--white)}
+    .countdown .label{font-size:.62rem;letter-spacing:.14em;color:var(--grey-600);margin-top:4px}
+    .countdown-concluded{display:none;text-align:center;padding:20px 0}
+    .countdown-concluded h3{font-size:1.7rem;color:var(--white);margin-bottom:12px}
+
+    /* ---------- sections generic ---------- */
+    section{padding:96px 0}
+    .section-tight{padding:64px 0}
+    .eyebrow-tag{
+      display:inline-flex;align-items:center;gap:8px;
+      font-size:.78rem;font-weight:700;color:var(--red);margin-bottom:14px;
+    }
+    .eyebrow-tag .bib{
+      font-family:var(--font-display);background:var(--black);color:var(--white);
+      padding:2px 9px;border-radius:2px;font-size:.78rem;
+    }
+    h2.h-lg{font-size:clamp(2.1rem,4.6vw,3.4rem)}
+    .lede{font-size:1.05rem;color:var(--grey-600);max-width:640px;margin-top:14px}
+    .bg-black{background:var(--black);color:var(--white)}
+    .bg-black .lede{color:var(--grey-300)}
+    .bg-grey{background:var(--grey-100)}
+
+    /* stats */
+    .stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--grey-300);margin-top:56px;border:1px solid var(--grey-300)}
+    .stat{background:var(--white);padding:40px 26px;text-align:center}
+    .stat .big{font-family:var(--font-display);font-size:clamp(2.4rem,5vw,3.6rem);color:var(--red)}
+    .stat .cap{font-size:.76rem;letter-spacing:.08em;color:var(--grey-600);margin-top:6px}
+
+    /* why grid */
+    .why-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center;margin-top:20px}
+    .why-list{display:grid;gap:22px;margin-top:30px}
+    .why-item{display:flex;gap:16px;align-items:flex-start}
+    .why-item .ic{
+      flex:none;width:44px;height:44px;border-radius:50%;background:var(--black);color:var(--white);
+      display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:1.1rem;
+    }
+    .why-item h4{font-family:var(--font-body);font-weight:700;font-size:1rem;margin-bottom:3px}
+    .why-item p{color:var(--grey-600);font-size:.92rem}
+    .why-photo{position:relative;height:520px;border-radius:2px;overflow:hidden}
+    .why-photo img{width:100%;height:100%;object-fit:cover}
+
+    /* corporate cta band */
+    .corp-band{
+      background:linear-gradient(120deg,var(--red) 0%, var(--red-dark) 100%);
+      color:var(--white);position:relative;overflow:hidden;
+    }
+    .corp-band .container{display:grid;grid-template-columns:1.3fr .7fr;gap:40px;align-items:center}
+    .corp-band h2{font-size:clamp(2.2rem,5vw,3.6rem);color:var(--white)}
+    .corp-band p{color:rgba(255,255,255,.88);margin-top:14px;max-width:480px}
+    .corp-band .stat-box{background:rgba(0,0,0,.18);border:1px solid rgba(255,255,255,.25);padding:28px;border-radius:2px}
+    .corp-band .stat-box .n{font-family:var(--font-display);font-size:2.6rem}
+    .corp-band .stat-box .l{font-size:.78rem;color:rgba(255,255,255,.8);margin-top:4px}
+    .corp-band .btn-ghost{margin-top:24px}
+
+    /* impact */
+    .impact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
+    .impact-photo{height:460px;border-radius:2px;overflow:hidden;position:relative}
+    .impact-photo img{width:100%;height:100%;object-fit:cover}
+    .impact-figure{
+      position:absolute;bottom:0;left:0;background:var(--black);color:var(--white);
+      padding:18px 22px;display:flex;align-items:baseline;gap:10px;
+    }
+    .impact-figure .n{font-family:var(--font-display);font-size:2.4rem;color:var(--gold)}
+    .impact-figure .l{font-size:.72rem;letter-spacing:.05em;color:var(--grey-300);max-width:150px}
+
+    /* previous editions teaser */
+    .teaser-grid{display:grid;grid-template-columns:1.3fr .7fr .7fr;grid-template-rows:1fr 1fr;gap:14px;margin-top:44px;height:520px}
+    .teaser-grid a{position:relative;overflow:hidden;border-radius:2px;display:block}
+    .teaser-grid a:first-child{grid-row:1/3}
+    .teaser-grid img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+    .teaser-grid a:hover img{transform:scale(1.06)}
+    .teaser-cap{position:absolute;left:0;bottom:0;right:0;padding:16px;background:linear-gradient(0deg,rgba(0,0,0,.75),transparent);color:#fff;font-size:.78rem;font-weight:600}
+
+    /* final cta */
+    .final-cta{background:var(--black);color:var(--white);text-align:center}
+    .final-cta h2{font-size:clamp(2.4rem,7vw,4.6rem);color:var(--white)}
+    .final-cta p{color:var(--grey-300);max-width:480px;margin:16px auto 32px}
+    .final-cta .hero-ctas{justify-content:center}
+
+    /* footer */
+    footer{background:var(--black);color:var(--grey-300);padding:72px 0 0}
+    .foot-grid{display:grid;grid-template-columns:1.4fr .8fr .8fr 1fr;gap:40px;padding-bottom:52px;border-bottom:1px solid rgba(255,255,255,.1)}
+    .foot-brand .name{font-family:var(--font-display);font-size:1.5rem;color:#fff}
+    .foot-brand p{margin-top:12px;font-size:.86rem;line-height:1.7;max-width:280px;color:var(--grey-600)}
+    .foot-col h5{font-size:.72rem;letter-spacing:.1em;color:var(--gold);margin-bottom:16px;font-weight:700}
+    .foot-col a,.foot-col li{display:block;font-size:.86rem;color:var(--grey-300);margin-bottom:11px}
+    .foot-col a:hover{color:#fff}
+    .foot-bottom{display:flex;justify-content:space-between;align-items:center;padding:24px 0;font-size:.76rem;color:var(--grey-600);flex-wrap:wrap;gap:10px}
+    .foot-bottom strong{color:var(--gold)}
+
+    /* floating buttons */
+    .fab-wa{
+      position:fixed;right:20px;bottom:20px;z-index:250;
+      width:58px;height:58px;border-radius:50%;background:#25D366;
+      display:flex;align-items:center;justify-content:center;box-shadow:0 10px 26px rgba(0,0,0,.3);
+      transition:transform .2s ease;
+    }
+    .fab-wa:hover{transform:scale(1.08)}
+    .fab-register{
+      position:fixed;left:0;right:0;bottom:0;z-index:240;background:var(--red);color:#fff;
+      text-align:center;padding:14px;font-weight:700;font-size:.9rem;letter-spacing:.03em;
+      display:none;
+    }
+    @media (max-width:760px){.fab-register.show{display:block}}
+
+    /* reveal */
+    .reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease, transform .7s ease}
+    .reveal.in{opacity:1;transform:none}
+
+    /* generic content blocks used on interior pages */
+    .page-hero{
+      background:linear-gradient(180deg,rgba(10,10,12,.5),rgba(10,10,12,.88)), var(--img) center/cover no-repeat;
+      color:#fff;padding:calc(var(--nav-h) + 90px) 0 90px;margin-top:calc(-1 * var(--nav-h));
+    }
+    .page-hero .crumb{font-size:.78rem;color:var(--grey-300);letter-spacing:.04em;margin-bottom:16px}
+    .page-hero h1{font-size:clamp(2.6rem,6.4vw,4.6rem);color:#fff}
+    .page-hero p{color:var(--grey-300);max-width:560px;margin-top:16px}
+
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
+    .two-col img{border-radius:2px;width:100%;height:100%;object-fit:cover}
+    .prose h3{font-family:var(--font-body);font-weight:700;font-size:1.3rem;margin:26px 0 10px}
+    .prose p{color:var(--grey-600);margin-bottom:14px}
+    .prose ul{margin:14px 0 14px 0;display:grid;gap:10px}
+    .prose ul li{padding-left:22px;position:relative;color:var(--grey-600)}
+    .prose ul li::before{content:"";position:absolute;left:0;top:9px;width:8px;height:2px;background:var(--red)}
+
+    .timeline{margin-top:50px;border-left:2px solid var(--grey-300);padding-left:32px;display:grid;gap:34px}
+    .tl-item{position:relative}
+    .tl-item::before{content:"";position:absolute;left:-38px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--red);border:3px solid #fff;box-shadow:0 0 0 2px var(--grey-300)}
+    .tl-item .yr{font-family:var(--font-display);font-size:1.7rem;color:var(--red)}
+    .tl-item p{color:var(--grey-600);margin-top:4px;font-size:.92rem}
+    .tl-note{margin-top:8px;font-size:.78rem;color:var(--grey-600);font-style:italic}
+
+    .team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:44px}
+    .team-card{border:1px solid var(--grey-300);padding:30px 26px}
+    .team-card h4{font-family:var(--font-body);font-weight:700;margin-bottom:8px}
+    .team-card p{color:var(--grey-600);font-size:.9rem}
+
+    .cards-2{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:50px}
+    .reg-card{border:1px solid var(--grey-300);padding:44px 38px;position:relative;overflow:hidden}
+    .reg-card.featured{border-color:var(--black);background:var(--black);color:#fff}
+    .reg-card .tag{font-size:.72rem;letter-spacing:.1em;color:var(--red);font-weight:700}
+    .reg-card.featured .tag{color:var(--gold)}
+    .reg-card h3{font-family:var(--font-display);font-size:2rem;margin:8px 0 4px}
+    .reg-card .price{font-family:var(--font-display);font-size:3.2rem;color:var(--red);margin:14px 0}
+    .reg-card.featured .price{color:var(--gold)}
+    .reg-card p.desc{color:var(--grey-600);margin-bottom:22px}
+    .reg-card.featured p.desc{color:var(--grey-300)}
+    .reg-card ul{display:grid;gap:10px;margin-bottom:28px}
+    .reg-card ul li{font-size:.88rem;padding-left:20px;position:relative;color:var(--grey-600)}
+    .reg-card.featured ul li{color:var(--grey-300)}
+    .reg-card ul li::before{content:"";position:absolute;left:0;top:8px;width:7px;height:7px;background:var(--red);border-radius:50%}
+    .reg-card.featured ul li::before{background:var(--gold)}
+
+    .enquiry-form{background:var(--grey-100);padding:48px;border-radius:2px;margin-top:44px}
+    .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:24px}
+    .form-grid .full{grid-column:1/-1}
+    .form-grid label{display:block;font-size:.78rem;font-weight:600;margin-bottom:7px;color:var(--grey-800)}
+    .form-grid input,.form-grid textarea{
+      width:100%;padding:13px 14px;border:1.5px solid var(--grey-300);border-radius:2px;
+      font-family:var(--font-body);font-size:.92rem;background:#fff;
+    }
+    .form-grid input:focus,.form-grid textarea:focus{border-color:var(--red);outline:none}
+    .form-note{font-size:.78rem;color:var(--grey-600);margin-top:16px}
+
+    .info-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--grey-300);margin-top:60px;border:1px solid var(--grey-300)}
+    .info-strip .cell{background:#fff;padding:30px 24px}
+    .info-strip .cell h5{font-size:.72rem;letter-spacing:.08em;color:var(--red);margin-bottom:8px;font-weight:700}
+    .info-strip .cell p{font-weight:600;font-size:.95rem}
+
+    /* gallery */
+    .filters{display:flex;gap:10px;flex-wrap:wrap;margin:38px 0}
+    .filter-btn{padding:9px 18px;border:1.5px solid var(--grey-300);border-radius:20px;font-size:.82rem;font-weight:600;color:var(--grey-600)}
+    .filter-btn[aria-pressed="true"]{background:var(--black);color:#fff;border-color:var(--black)}
+    .masonry{columns:3 260px;column-gap:16px}
+    .masonry figure{break-inside:avoid;margin:0 0 16px;position:relative;overflow:hidden;border-radius:2px;cursor:pointer}
+    .masonry img{width:100%;display:block;transition:transform .45s ease}
+    .masonry figure:hover img{transform:scale(1.05)}
+    .masonry figcaption{
+      position:absolute;left:0;right:0;bottom:0;padding:14px;
+      background:linear-gradient(0deg,rgba(0,0,0,.78),transparent);color:#fff;font-size:.78rem;
+      opacity:0;transition:opacity .25s ease;
+    }
+    .masonry figure:hover figcaption,.masonry figure:focus-within figcaption{opacity:1}
+    .masonry figure:focus-within{outline:3px solid var(--red);outline-offset:2px}
+
+    .lightbox{
+      position:fixed;inset:0;background:rgba(8,8,9,.96);z-index:400;
+      display:none;align-items:center;justify-content:center;padding:40px;
+    }
+    .lightbox.open{display:flex}
+    .lightbox img{max-width:min(1000px,90vw);max-height:80vh;object-fit:contain;border-radius:2px}
+    .lightbox .lb-cap{color:#fff;text-align:center;margin-top:16px;font-size:.88rem;max-width:600px}
+    .lightbox .lb-close{position:absolute;top:24px;right:24px;width:46px;height:46px;border-radius:50%;background:rgba(255,255,255,.12);color:#fff;font-size:1.4rem;display:flex;align-items:center;justify-content:center}
+    .lightbox .lb-nav{position:absolute;top:50%;transform:translateY(-50%);width:52px;height:52px;border-radius:50%;background:rgba(255,255,255,.12);color:#fff;font-size:1.6rem;display:flex;align-items:center;justify-content:center}
+    .lightbox .lb-prev{left:20px}.lightbox .lb-next{right:20px}
+
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;margin-top:50px}
+    .contact-list{display:grid;gap:22px}
+    .contact-row{display:flex;gap:18px;align-items:flex-start;padding:22px;border:1px solid var(--grey-300)}
+    .contact-row .ic{flex:none;width:46px;height:46px;border-radius:50%;background:var(--black);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--font-display)}
+    .contact-row h4{font-size:.98rem;margin-bottom:4px}
+    .contact-row p{font-size:.88rem;color:var(--grey-600)}
+    .contact-row a.link{color:var(--red);font-weight:600;font-size:.86rem;display:inline-block;margin-top:6px}
+    .map-card{background:var(--grey-100);padding:36px;text-align:center;border:1px solid var(--grey-300)}
+    .map-card h4{font-family:var(--font-display);font-size:1.6rem;margin-bottom:6px}
+    .map-card p{color:var(--grey-600);margin-bottom:20px}
+    .partner-badges{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+    .partner-badges span{border:1px solid var(--grey-300);padding:9px 16px;font-size:.8rem;font-weight:600;color:var(--grey-800);border-radius:20px}
+    .placeholder-logo{
+      border:1.5px dashed var(--grey-300);border-radius:2px;padding:22px;
+      display:flex;align-items:center;justify-content:center;text-align:center;
+      color:var(--grey-600);font-size:.76rem;letter-spacing:.04em;min-height:88px;
+    }
+
+    @media (max-width:980px){
+      .nav-links,.nav-cta{display:none}
+      .hamburger{display:flex}
+      .why-grid,.impact-grid,.two-col,.corp-band .container,.contact-grid{grid-template-columns:1fr}
+      .why-photo,.impact-photo{height:340px;order:-1}
+      .stats-grid{grid-template-columns:repeat(2,1fr)}
+      .teaser-grid{grid-template-columns:1fr 1fr;grid-template-rows:repeat(3,180px);height:auto}
+      .teaser-grid a:first-child{grid-row:auto;grid-column:1/3}
+      .foot-grid{grid-template-columns:1fr 1fr;row-gap:36px}
+      .cards-2,.team-grid,.info-strip{grid-template-columns:1fr}
+      .info-strip{grid-template-columns:1fr 1fr}
+      .form-grid{grid-template-columns:1fr}
+      .masonry{columns:2 200px}
+    }
+    @media (max-width:600px){
+      section{padding:64px 0}
+      .foot-grid{grid-template-columns:1fr}
+      .info-strip{grid-template-columns:1fr}
+      .masonry{columns:1}
+      .corp-band .container{gap:28px}
+    }
+</style>
+</head>
+<body>
+
+  <div class="concept-ribbon">DIGITAL PLATFORM CONCEPT &nbsp;&middot;&nbsp; <strong>UNOFFICIAL DEMO</strong> prepared for review by Global Media Alliance &amp; Japan Motors — not the official Corporate Run website</div>
+  <nav class="site-nav" aria-label="Primary">
+    <div class="container nav-row">
+      <a href="index.html" class="brand" aria-label="Corporate Run Ghana home">
+        <span class="mark" aria-hidden="true">CR</span>
+        <span class="name">CORPORATE RUN<small>GHANA &middot; 16TH EDITION</small></span>
+      </a>
+      <div class="nav-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="registration.html">Registration</a><a href="experience.html">Experience</a><a href="contact.html" aria-current="page">Contact</a></div>
+      <a href="registration.html" class="btn btn-primary nav-cta" style="display:inline-flex">Register Now <span class="btn-arrow" aria-hidden="true">&rarr;</span></a>
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="close-btn" aria-label="Close menu"><span aria-hidden="true">&times;</span></button>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="registration.html">Registration</a>
+    <a href="experience.html">Experience</a>
+    <a href="contact.html">Contact</a>
+    <a href="registration.html" class="btn btn-primary">Register Now</a>
+  </div>
+
+
+  <header class="page-hero" style="--img:url('https://gmaworld.com/wp-content/uploads/2024/09/cr3-1024x652.jpg')">
+    <div class="container">
+      <div class="crumb">Home / Contact</div>
+      <h1>Get in touch.</h1>
+      <p>Registration support, corporate partnerships, media enquiries and venue information.</p>
+    </div>
+  </header>
+
+  <section class="reveal">
+    <div class="container contact-grid">
+      <div>
+        <span class="eyebrow-tag"><span class="bib">01</span> Contact</span>
+        <h2 class="h-lg" style="font-size:clamp(1.8rem,3.6vw,2.6rem)">Reach the event team.</h2>
+        <div class="contact-list" style="margin-top:28px">
+          <div class="contact-row">
+            <div class="ic" aria-hidden="true">&#9990;</div>
+            <div>
+              <h4>Call the event line</h4>
+              <p>For registration, corporate teams and general enquiries.</p>
+              <a class="link" href="#" data-tel data-phone-display>054 665 0449</a>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="ic" aria-hidden="true">&#128172;</div>
+            <div>
+              <h4>WhatsApp</h4>
+              <p>Fastest way to reach the team for quick questions.</p>
+              <a class="link" href="#" data-wa="Hello, I have a question about the Corporate Run Ghana 2026." target="_blank" rel="noopener">Start a WhatsApp chat</a>
+            </div>
+          </div>
+          <div class="contact-row" id="partnerships">
+            <div class="ic" aria-hidden="true">&#129309;</div>
+            <div>
+              <h4>Corporate partnerships</h4>
+              <p>Sponsorship and CSR partnership enquiries for the 2026 edition.</p>
+              <a class="link" href="#" data-wa="Hello, my organisation is interested in a corporate partnership / sponsorship for the Corporate Run Ghana 2026." target="_blank" rel="noopener">Enquire on WhatsApp</a>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="ic" aria-hidden="true">&#128240;</div>
+            <div>
+              <h4>Media enquiries</h4>
+              <p>Press and media coverage requests.</p>
+              <a class="link" href="#" data-wa="Hello, I am a member of the media and would like more information about the Corporate Run Ghana 2026." target="_blank" rel="noopener">Enquire on WhatsApp</a>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="ic" aria-hidden="true">&#127939;</div>
+            <div>
+              <h4>Corporate team registration</h4>
+              <p>Register your company's team for the 2026 edition.</p>
+              <a class="link" href="registration.html#corporate">Go to corporate registration &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <span class="eyebrow-tag"><span class="bib">02</span> Venue &amp; event info</span>
+        <h2 class="h-lg" style="font-size:clamp(1.8rem,3.6vw,2.6rem)">Silver Star Towers, Airport City.</h2>
+        <div class="map-card" style="margin-top:28px">
+          <h4>SILVER STAR TOWERS</h4>
+          <p>Airport City, Accra, Ghana &middot; Start/finish for the 2026 Corporate Run &amp; Walk</p>
+          <a href="https://www.google.com/maps/search/?api=1&query=Silver+Star+Towers+Airport+City+Accra+Ghana" target="_blank" rel="noopener" class="btn btn-dark">View on Google Maps <span class="btn-arrow" aria-hidden="true">&rarr;</span></a>
+        </div>
+        <div class="info-strip" style="margin-top:0">
+          <div class="cell"><h5>DATE</h5><p>Mon, 21 Sept 2026</p></div>
+          <div class="cell"><h5>TIME</h5><p>6:00 AM</p></div>
+          <div class="cell"><h5>DISTANCE</h5><p>5KM Run/Walk</p></div>
+          <div class="cell"><h5>EDITION</h5><p>16th</p></div>
+        </div>
+        <div style="margin-top:32px">
+          <span class="eyebrow-tag"><span class="bib">03</span> Regions</span>
+          <p class="lede">The 2026 edition runs simultaneously across the Greater Accra, Ashanti, Western and Northern regions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-grey reveal">
+    <div class="container">
+      <span class="eyebrow-tag"><span class="bib">04</span> Partner &amp; sponsor ecosystem</span>
+      <h2 class="h-lg">Corporate Run partners.</h2>
+      <p class="lede">Organisations reflected in official event coverage and campaign signage for recent editions. The confirmed 2026 partner list should be verified directly with Global Media Alliance before this concept is finalised.</p>
+      <div class="partner-badges">
+        <span>Global Media Alliance</span><span>Japan Motors</span><span>Silver Star Tower</span><span>Silver Star Auto</span>
+        <span>Lakeside Estate</span><span>Lakeside Marina Park</span><span>YFM</span><span>Happy 98.9FM</span>
+        <span>Silverbird Cinemas</span><span>Ghana Blind Union</span>
+      </div>
+      <div class="two-col" style="margin-top:40px;grid-template-columns:repeat(4,1fr);gap:16px">
+        <div class="placeholder-logo">Official partner logo</div>
+        <div class="placeholder-logo">Official partner logo</div>
+        <div class="placeholder-logo">Official partner logo</div>
+        <div class="placeholder-logo">Official partner logo</div>
+      </div>
+      <p class="form-note" style="margin-top:16px">Official sponsor and partner logos to be inserted here once supplied or approved by Global Media Alliance / Japan Motors. None have been recreated or invented for this concept.</p>
+    </div>
+  </section>
+
+  <section class="final-cta reveal">
+    <div class="container">
+      <h2 style="font-size:clamp(2rem,5.6vw,3.6rem)">LET'S TALK.</h2>
+      <p>Registration, partnerships or media &mdash; the team is one message away.</p>
+      <div class="hero-ctas">
+        <a href="#" data-wa="Hello, I'd like to get in touch about the Corporate Run Ghana 2026." class="btn btn-primary" target="_blank" rel="noopener">Message on WhatsApp <span class="btn-arrow" aria-hidden="true">&rarr;</span></a>
+        <a href="registration.html" class="btn btn-ghost">Register Now <span class="btn-arrow" aria-hidden="true">&rarr;</span></a>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container">
+      <div class="foot-grid">
+        <div class="foot-brand">
+          <div class="name">CORPORATE RUN GHANA</div>
+          <p><span data-edition></span> Corporate Run &amp; Walk &mdash; an annual 5KM run/walk organised by Global Media Alliance and Japan Motors, promoting corporate wellness, networking and support for the Ghana Blind Union.</p>
+          <p style="margin-top:14px;color:var(--gold);font-size:.78rem;font-weight:600">Website Concept &mdash; Unofficial Demo</p>
+        </div>
+        <div class="foot-col">
+          <h5>NAVIGATION</h5>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="experience.html">Experience</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="foot-col">
+          <h5>TAKE PART</h5>
+          <a href="registration.html">Individual Registration</a>
+          <a href="registration.html#corporate">Corporate Teams</a>
+          <a href="contact.html#partnerships">Partnerships</a>
+        </div>
+        <div class="foot-col">
+          <h5>EVENT INFO</h5>
+          <li><span data-edition></span> Edition &middot; <span data-year></span></li>
+          <li>21 September, 6:00 AM</li>
+          <li>Silver Star Towers, Airport City, Accra</li>
+          <li><span data-phone-display>054 665 0449</span></li>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>&copy; <span data-copyright-year></span> Concept build by Ibratech &amp; Graphix. <strong>Not an official Global Media Alliance or Japan Motors platform.</strong></span>
+        <span>Design proposal &middot; v1.0</span>
+      </div>
+    </div>
+  </footer>
+  <a class="fab-wa" href="#" data-wa="Hello, I'd like more information about the Corporate Run Ghana 2026." aria-label="Chat with us on WhatsApp" target="_blank" rel="noopener">
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="#fff" aria-hidden="true"><path d="M16 3C9 3 3.3 8.6 3.3 15.5c0 2.5.7 4.8 1.9 6.8L3 29l7-2.1c2 1.1 4.2 1.7 6.5 1.7 7 0 12.7-5.6 12.7-12.5S23 3 16 3zm0 22.8c-2 0-3.9-.5-5.6-1.5l-.4-.2-4.2 1.2 1.2-4.1-.3-.4a10.2 10.2 0 0 1-1.7-5.6C5 9.8 9.9 5 16 5s11 4.8 11 10.5S22.1 25.8 16 25.8zm5.8-7.8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.1-.6.1-.1.3-.4.5-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.2 3.4 5.3 4.7.7.3 1.3.5 1.8.6.7.2 1.4.2 1.9.1.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.2-.6-.4z"/></svg>
+  </a>
+  <a class="fab-register" href="registration.html">SECURE YOUR SPOT &mdash; REGISTER NOW</a>
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+    <button class="lb-nav lb-prev" aria-label="Previous photo">&#8249;</button>
+    <div>
+      <img src="" alt="">
+      <p class="lb-cap"></p>
+    </div>
+    <button class="lb-nav lb-next" aria-label="Next photo">&#8250;</button>
+    <button class="lb-close" aria-label="Close photo viewer">&times;</button>
+  </div>
+
+<script>
+    // ============================================================
+    // CORPORATE RUN GHANA — DIGITAL PLATFORM CONCEPT
+    // Future-ready config: update these values for the next edition
+    // (e.g. 2027) and the whole site follows.
+    // ============================================================
+    const EVENT_CONFIG = {
+      year: 2026,
+      edition: "16th",
+      editionNumber: 16,
+      eventName: "Corporate Run & Walk",
+      organizers: "Global Media Alliance & Japan Motors",
+      dateLabel: "Monday, 21 September 2026",
+      dateISO: "2026-09-21T06:00:00+00:00", // Africa/Accra is UTC+0
+      timeLabel: "6:00 AM",
+      venue: "Silver Star Towers Complex, Airport City, Accra",
+      distance: "5KM",
+      individualPrice: "GH₵100",
+      contactPhoneDisplay: "054 665 0449",
+      contactPhoneIntl: "233546650449", // for WhatsApp / tel: links
+      // TODO — insert the official online registration / eGotickets URL here once confirmed by the organizers.
+      registrationUrl: "#registration-official-url-pending"
+    };
+
+    function waLink(message){
+      return "https://wa.me/" + EVENT_CONFIG.contactPhoneIntl + "?text=" + encodeURIComponent(message);
+    }
+
+    document.addEventListener("DOMContentLoaded", function(){
+
+      // ---- year stamps ----
+      document.querySelectorAll("[data-year]").forEach(function(el){ el.textContent = EVENT_CONFIG.year; });
+      document.querySelectorAll("[data-edition]").forEach(function(el){ el.textContent = EVENT_CONFIG.edition; });
+      document.querySelectorAll("[data-copyright-year]").forEach(function(el){ el.textContent = new Date().getFullYear(); });
+
+      // ---- sticky nav on scroll ----
+      const nav = document.querySelector(".site-nav");
+      function onScroll(){
+        if(!nav) return;
+        if(window.scrollY > 40){ nav.classList.add("solid"); } else { nav.classList.remove("solid"); }
+      }
+      window.addEventListener("scroll", onScroll, {passive:true});
+      onScroll();
+
+      // ---- mobile menu ----
+      const hamburger = document.querySelector(".hamburger");
+      const mobileMenu = document.querySelector(".mobile-menu");
+      const closeBtn = document.querySelector(".mobile-menu .close-btn");
+      function openMenu(){ mobileMenu.classList.add("open"); hamburger.setAttribute("aria-expanded","true"); document.body.style.overflow="hidden"; }
+      function closeMenu(){ mobileMenu.classList.remove("open"); hamburger.setAttribute("aria-expanded","false"); document.body.style.overflow=""; }
+      if(hamburger && mobileMenu){
+        hamburger.addEventListener("click", function(){
+          mobileMenu.classList.contains("open") ? closeMenu() : openMenu();
+        });
+        closeBtn && closeBtn.addEventListener("click", closeMenu);
+        mobileMenu.querySelectorAll("a").forEach(function(a){ a.addEventListener("click", closeMenu); });
+        document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeMenu(); });
+      }
+
+      // ---- floating register CTA (mobile) appears after hero ----
+      const fabRegister = document.querySelector(".fab-register");
+      const heroEl = document.querySelector(".hero, .page-hero");
+      if(fabRegister && heroEl){
+        const io = new IntersectionObserver(function(entries){
+          entries.forEach(function(entry){
+            fabRegister.classList.toggle("show", !entry.isIntersecting);
+          });
+        }, {threshold:0});
+        io.observe(heroEl);
+      }
+
+      // ---- WhatsApp links ----
+      document.querySelectorAll("[data-wa]").forEach(function(el){
+        el.href = waLink(el.getAttribute("data-wa"));
+      });
+      document.querySelectorAll("[data-tel]").forEach(function(el){
+        el.href = "tel:+" + EVENT_CONFIG.contactPhoneIntl;
+      });
+      document.querySelectorAll("[data-phone-display]").forEach(function(el){
+        el.textContent = EVENT_CONFIG.contactPhoneDisplay;
+      });
+      document.querySelectorAll("[data-registration-url]").forEach(function(el){
+        el.href = EVENT_CONFIG.registrationUrl;
+      });
+
+      // ---- reveal on scroll ----
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      const revealEls = document.querySelectorAll(".reveal");
+      if(reduceMotion){
+        revealEls.forEach(function(el){ el.classList.add("in"); });
+      } else if("IntersectionObserver" in window){
+        const ro = new IntersectionObserver(function(entries){
+          entries.forEach(function(entry){
+            if(entry.isIntersecting){ entry.target.classList.add("in"); ro.unobserve(entry.target); }
+          });
+        }, {threshold:.15});
+        revealEls.forEach(function(el){ ro.observe(el); });
+      } else {
+        revealEls.forEach(function(el){ el.classList.add("in"); });
+      }
+
+      // ---- counters ----
+      const counters = document.querySelectorAll("[data-count-to]");
+      if(counters.length){
+        const cio = new IntersectionObserver(function(entries){
+          entries.forEach(function(entry){
+            if(!entry.isIntersecting) return;
+            const el = entry.target;
+            const target = parseFloat(el.getAttribute("data-count-to"));
+            const suffix = el.getAttribute("data-suffix") || "";
+            const duration = reduceMotion ? 0 : 1400;
+            const start = performance.now();
+            function tick(now){
+              const p = duration ? Math.min(1,(now-start)/duration) : 1;
+              const eased = 1 - Math.pow(1-p, 3);
+              el.textContent = Math.round(target*eased) + suffix;
+              if(p < 1) requestAnimationFrame(tick);
+            }
+            requestAnimationFrame(tick);
+            cio.unobserve(el);
+          });
+        }, {threshold:.5});
+        counters.forEach(function(el){ cio.observe(el); });
+      }
+
+      // ---- countdown ----
+      const cd = document.querySelector("[data-countdown]");
+      if(cd){
+        const target = new Date(EVENT_CONFIG.dateISO).getTime();
+        const dEl = cd.querySelector("[data-d]"), hEl = cd.querySelector("[data-h]"),
+              mEl = cd.querySelector("[data-m]"), sEl = cd.querySelector("[data-s]");
+        const concluded = document.querySelector("[data-countdown-concluded]");
+        function pad(n){ return String(n).padStart(2,"0"); }
+        function update(){
+          const now = Date.now();
+          const diff = target - now;
+          if(diff <= 0){
+            cd.style.display = "none";
+            if(concluded) concluded.style.display = "block";
+            clearInterval(timer);
+            return;
+          }
+          const d = Math.floor(diff/86400000);
+          const h = Math.floor((diff%86400000)/3600000);
+          const m = Math.floor((diff%3600000)/60000);
+          const s = Math.floor((diff%60000)/1000);
+          dEl.textContent = pad(d); hEl.textContent = pad(h); mEl.textContent = pad(m); sEl.textContent = pad(s);
+        }
+        update();
+        var timer = setInterval(update, 1000);
+      }
+
+      // ---- gallery lightbox ----
+      const figures = Array.from(document.querySelectorAll(".masonry figure[data-full]"));
+      const lightbox = document.querySelector(".lightbox");
+      if(figures.length && lightbox){
+        const lbImg = lightbox.querySelector("img");
+        const lbCap = lightbox.querySelector(".lb-cap");
+        let idx = 0;
+        function show(i){
+          idx = (i + figures.length) % figures.length;
+          const fig = figures[idx];
+          lbImg.src = fig.getAttribute("data-full");
+          lbImg.alt = fig.querySelector("img").alt;
+          lbCap.textContent = fig.getAttribute("data-caption") || "";
+          lightbox.classList.add("open");
+          lightbox.querySelector(".lb-close").focus();
+        }
+        function hide(){ lightbox.classList.remove("open"); figures[idx].querySelector("button,a,img").focus(); }
+        figures.forEach(function(fig, i){
+          fig.setAttribute("tabindex","0");
+          fig.setAttribute("role","button");
+          fig.setAttribute("aria-label","Open photo: " + (fig.getAttribute("data-caption")||"gallery image"));
+          fig.addEventListener("click", function(){ show(i); });
+          fig.addEventListener("keydown", function(e){ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); show(i); } });
+        });
+        lightbox.querySelector(".lb-close").addEventListener("click", hide);
+        lightbox.querySelector(".lb-prev").addEventListener("click", function(){ show(idx-1); });
+        lightbox.querySelector(".lb-next").addEventListener("click", function(){ show(idx+1); });
+        lightbox.addEventListener("click", function(e){ if(e.target === lightbox) hide(); });
+        document.addEventListener("keydown", function(e){
+          if(!lightbox.classList.contains("open")) return;
+          if(e.key === "Escape") hide();
+          if(e.key === "ArrowRight") show(idx+1);
+          if(e.key === "ArrowLeft") show(idx-1);
+        });
+      }
+
+      // ---- gallery filters ----
+      const filterBtns = document.querySelectorAll(".filter-btn");
+      const galleryItems = document.querySelectorAll(".masonry figure");
+      if(filterBtns.length){
+        filterBtns.forEach(function(btn){
+          btn.addEventListener("click", function(){
+            filterBtns.forEach(function(b){ b.setAttribute("aria-pressed","false"); });
+            btn.setAttribute("aria-pressed","true");
+            const cat = btn.getAttribute("data-filter");
+            galleryItems.forEach(function(fig){
+              const show = cat === "all" || fig.getAttribute("data-cat") === cat;
+              fig.style.display = show ? "" : "none";
+            });
+          });
+        });
+      }
+
+      // ---- corporate enquiry form -> WhatsApp ----
+      const enquiryForm = document.querySelector("#corporate-enquiry-form");
+      if(enquiryForm){
+        enquiryForm.addEventListener("submit", function(e){
+          e.preventDefault();
+          const fd = new FormData(enquiryForm);
+          const msg = "Hello, I am interested in the " + EVENT_CONFIG.edition + " Corporate Run Ghana " + EVENT_CONFIG.year +
+            " Corporate Team Package.%0A%0ACompany: " + fd.get("company") +
+            "%0AContact person: " + fd.get("contact") +
+            "%0ANumber of participants: " + fd.get("participants") +
+            "%0AMessage: " + fd.get("message");
+          window.open("https://wa.me/" + EVENT_CONFIG.contactPhoneIntl + "?text=" + msg, "_blank");
+        });
+      }
+
+    });
+</script>
+</body>
+</html>
